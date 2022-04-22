@@ -7,7 +7,7 @@ except ModuleNotFoundError:print("SIAM Install Module bs4");os.system("python -m
 try: import mechanize
 except ModuleNotFoundError:print("SIAM Install Module mechanize");os.system("python -m pip install mechanize &> /dev/SIAM")
 try: import gTTS
-except ModuleNotFoundError: os.system("python -m pip install gTTS &> /dev/WASI")
+except ModuleNotFoundError: os.system("python -m pip install gTTS &> /dev/SIAM")
 ## import in
 import os,sys,time,datetime,re,random,hashlib,threading,json,getpass,urllib,requests
 import os, time, uuid, requests
